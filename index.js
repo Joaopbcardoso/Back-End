@@ -1,3 +1,22 @@
+const express = require('express')
+
+const app = express()
+
+app.get('/teste-api', function (req, res){
+    res.send('localhost:8000/teste-api')
+})
+
+app.listen(8000)
+
+
+
+
+
+
+
+
+
+
 /*array = [1,2,3,4,5]
 
 function filtraPares(array){
